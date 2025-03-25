@@ -26,7 +26,7 @@ function initGUI(scene,camera,rendu){
    this.actualisation = function () {
     posCamera();
     reAffichage();
-   }; // fin this.actualisation
+   };
  }; // fin de la fonction menuGUI
  // ajout de la camera dans le menu
  ajoutCameraGui(gui,menuGUI,camera)
